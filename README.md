@@ -1,4 +1,4 @@
-# Bootcamp - Data Science - Abril 2025 - The Bridge
+# Bootcamp - Data Science - Octubre 2025 - The Bridge
 
 
 ![The Bridge](./1-Fundamentals/Git/img/TheBridge_logo.png)
