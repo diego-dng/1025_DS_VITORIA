@@ -1,8 +1,5 @@
 # Bootcamp - Data Science - Abril 2025 - The Bridge
 
-
-![The Bridge](./1-Fundamentals/Git/img/TheBridge_logo.png)
-
 ----------
 
 ### **Nombre carpeta**: 1025_DS_VITORIA
