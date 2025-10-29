@@ -1,5 +1,5 @@
-yearmonth,day,gender,births
-1969,1,1,F,4046
+year,month,day,gender,births
+1969,1,1,F,""
 1969,1,1,M,4440
 1969,1,2,F,4454
 1969,1,2,M,4548
