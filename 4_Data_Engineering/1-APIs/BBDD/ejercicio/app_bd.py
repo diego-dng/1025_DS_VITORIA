@@ -39,8 +39,24 @@ def buscar_libro():
 def insertar_libro():
     """
     {
-    [,]
+    [
+    2000,
+    1954,
+    "Tolkien",
+    "El señor de los anillos",
+    "El anillo unico"
+    ]
     }
     """
+
+    data = request.get_json()
+    query =  f"INSERT INTO books(id, published, author, title, first_sentence) VALUES({data[0]},'{data[1]}','{data[2]}','{data[3]}','{data[4]}')"
+    con = sqlite3.connect("books.db")
+    cursor = con.cursor()
+    resultado = cursor.execute(query).fetchall()
+    con.commit()
+    con.close()
+    return "Libro guardado correctamente"
+
 
 app.run()
